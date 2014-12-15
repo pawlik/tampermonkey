@@ -10,8 +10,6 @@
 
 (function(){
 
-// just for test
-
 var gros, tax, rate;
 
 gros = parseFloat(document.querySelectorAll('.grand_total-incl .price')[0].innerHTML.slice("X&nbsp;".length).replace(",", '.'))
